@@ -83,30 +83,6 @@ void TutorialGame::UpdateGame(float dt) {
 	Debug::Print("P: pause", Vector2(5, 10));
 	Debug::Print("ESC: Quit", Vector2(5, 15));
 
-	/*fpsCount += dt;
-	if (fpsCount < 1) {
-		tempFps += 1;
-	}
-
-	else {
-		fps = tempFps;
-		tempFps = 0;
-		fpsCount = 0;
-	}
-
-	Debug::Print("FPS: " + std::to_string(fps), Vector2(70, 50));
-
-
-	if (useGravity) {
-		Debug::Print("(G)ravity on", Vector2(5, 95));
-	}
-	else {
-		Debug::Print("(G)ravity off", Vector2(5, 95));
-	}*/
-
-	//Debug::Print("Memory fault", Vector2(40, 5));
-	//Debug::DrawLine(Vector3(80, 0, 80), Vector3(80, 100, 80), Vector4(1, 0, 1, 1));
-	//Debug::DrawLine(Vector3(200, 0, 10), Vector3(200, 100, 10), Vector4(1, 0, 0.5, 1));
 	if (level == 1) {
 		Debug::DrawLine(Vector3(-25, 135, -690), Vector3(25, 135, -690), Vector4(1, 0, 0.5, 1));
 	}
